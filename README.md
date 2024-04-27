@@ -7,8 +7,14 @@ This is based on a python class managing sensor connection and data (https://git
 
 The newer LD2450 also publishes data over bluetooth, so i modified the python class and the integration code to manage it.
 
-Eventually, it works (more or less..)
+Eventually, it works
 
-![image](https://github.com/MassiPi/ld2450_ble/assets/2384381/19af24d5-2f2c-47e7-b040-351e008fa910)
+The sensor only outputs coordinates of up to three targets and their speed, but those are not much useful so a big part of the available sensors in HA are calculated (distance, angle, moving, presence..)
 
-Still no idea on how to send config commands (like changing from single target mode to multi target mode) but well, this is just the first try..
+![image](https://github.com/MassiPi/ld2450_ble/assets/2384381/7c8f944a-35a3-4fd5-a7cb-4913463a8ff2)
+
+The LD2450 is also fully controllable over BLE, so i added switch (for multi-target mode), button (for reboot), select (for area mode) and number slider (for up to 3 areas configuration).
+
+![image](https://github.com/MassiPi/ld2450_ble/assets/2384381/38e1a29c-66a0-4be3-83dd-ece0a1f10fc4)
+
+I assume the code will be full of errors and could be written much better, but writing a custom integration in HA is a nightmare and this is far beyond what i thought i could do..
