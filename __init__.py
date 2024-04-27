@@ -20,7 +20,7 @@ from .const import DOMAIN
 from .coordinator import LD2450BLECoordinator
 from .models import LD2450BLEData
 
-PLATFORMS: list[Platform] = [Platform.SENSOR]
+PLATFORMS: list[Platform] = [Platform.SENSOR, Platform.SWITCH, Platform.BINARY_SENSOR, Platform.SELECT, Platform.BUTTON, Platform.NUMBER]
 
 _LOGGER = logging.getLogger(__name__)
 

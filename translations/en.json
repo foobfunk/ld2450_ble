@@ -56,6 +56,100 @@
       },
       "target_three_resolution": {
         "name": "Target Three Resolution"
+      },
+      "target_one_distance": {
+        "name": "Target One Distance"
+      },
+      "target_two_distance": {
+        "name": "Target Two Distance"
+      },
+      "target_three_distance": {
+        "name": "Target Three Distance"
+      },
+      "target_one_angle": {
+        "name": "Target One Angle"
+      },
+      "target_two_angle": {
+        "name": "Target Two Angle"
+      },
+      "target_three_angle": {
+        "name": "Target Three Angle"
+      }
+    },
+    "binary_sensor": {
+      "any_presence": {
+        "name": "Presence"
+      },
+      "one_target": {
+        "name": "One Target"
+      },
+      "two_target": {
+        "name": "Two Target"
+      },
+      "three_target": {
+        "name": "Three Target"
+      },
+      "one_moving": {
+        "name": "Target One Moving"
+      },
+      "two_moving": {
+        "name": "Target Two Moving"
+      },
+      "three_moving": {
+        "name": "Target Three Moving"
+      }
+    },
+    "switch": {
+      "target_mode": {
+        "name": "Multi-Target Mode"
+      }
+    },
+    "select": {
+      "area_mode": {
+        "name": "Area Mode"
+      }
+    },
+    "button": {
+      "reboot": {
+        "name": "Reboot"
+      }
+    },
+    "number": {
+      "area_one_first_vertex_x": {
+        "name": "Area One First Vertex X"
+      },
+      "area_one_first_vertex_y": {
+        "name": "Area One First Vertex Y"
+      },
+      "area_one_second_vertex_x": {
+        "name": "Area One Second Vertex X"
+      },
+      "area_one_second_vertex_y": {
+        "name": "Area One Second Vertex Y"
+      },
+      "area_two_first_vertex_x": {
+        "name": "Area Two First Vertex X"
+      },
+      "area_two_first_vertex_y": {
+        "name": "Area Two First Vertex Y"
+      },
+      "area_two_second_vertex_x": {
+        "name": "Area Two Second Vertex X"
+      },
+      "area_two_second_vertex_y": {
+        "name": "Area Two Second Vertex Y"
+      },
+      "area_three_first_vertex_x": {
+        "name": "Area Three First Vertex X"
+      },
+      "area_three_first_vertex_y": {
+        "name": "Area Three First Vertex Y"
+      },
+      "area_three_second_vertex_x": {
+        "name": "Area Three Second Vertex X"
+      },
+      "area_three_second_vertex_y": {
+        "name": "Area Three Second Vertex Y"
       }
     }
   }

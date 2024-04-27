@@ -4,7 +4,7 @@ from datetime import datetime
 import logging
 import time
 
-from .ld2450_ble import LD2450BLE, LD2450BLEState
+from .ld2450_ble import LD2450BLE, LD2450BLEState, LD2450BLEConfig
 
 from homeassistant.core import CALLBACK_TYPE, HassJob, HomeAssistant, callback
 from homeassistant.helpers.event import async_call_later
@@ -47,7 +47,7 @@ class LD2450BLECoordinator(DataUpdateCoordinator[None]):
         self.async_set_updated_data(None)
 
     @callback
-    def _async_handle_update(self, state: LD2450BLEState) -> None:
+    def _async_handle_update(self, state: [LD2450BLEState, LD2450BLEConfig]) -> None:
         """Just trigger the callbacks."""
         self.connected = True
         previous_last_updated_time = self._last_update_time
