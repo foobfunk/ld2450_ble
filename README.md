@@ -18,3 +18,10 @@ The LD2450 is also fully controllable over BLE, so i added switch (for multi-tar
 ![image](https://github.com/MassiPi/ld2450_ble/assets/2384381/38e1a29c-66a0-4be3-83dd-ece0a1f10fc4)
 
 I assume the code will be full of errors and could be written much better, but writing a custom integration in HA is a nightmare and this is far beyond what i thought i could do..
+
+As a bonus, there is the 3d model for a sensor case (just print it..) (3 parts: front - with text - back and support)
+
+![image](https://github.com/MassiPi/ld2450_ble/assets/2384381/de475432-1c4f-4994-8e29-60ab636ab9ea)
+
+![image](https://github.com/MassiPi/ld2450_ble/assets/2384381/6cf245f0-2bd1-4ab3-81dd-96c42708d823)
+
